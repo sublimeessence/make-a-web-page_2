@@ -1,0 +1,43 @@
+
+a {
+	color: red;
+}
+h1 {
+	text-align: center;
+	background-color: white;
+}
+h2 {
+	text-align: left;
+	color: white;
+}
+.lesson {
+	color: white;
+	background-color: #0000CC;
+	padding: 10px;
+	margin: 20px;
+	border-radius: 25px;
+}
+.content-title {
+	color: black;
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 10px;
+}
+.content {
+	color: black;
+	background-color: #1F1F7A;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px;
+	border-radius: 15px
+}
+.contentbody {
+	border-radius: 10px;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    font-weight: lighter;
+    text-align: left;
+    border-radius: 25px;
+}
