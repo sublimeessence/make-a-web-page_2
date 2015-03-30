@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+ <html lang="en">
+  
+<head>
+    <title>Introduction to Programming Nanodegree: HTML and CSS</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./Index_files/CSSOne.css">
+
+</head>
+
+<body>
+
+<!-- note h1 defined as a class heading on its own; and then a separate class for the formatting of the "box"-->
+    <article>
+      <h1>Introduction to Programming Nanodegree: HTML, CSS and Programming</h1>
+      <div class="lesson">
+
+        <h2>Lesson 1: Basic HTML and HTML Elements</h2>
+          <div class="content">
+            <div class="content-title">
+              The World Wide Web
+      </div>
+
+<!--We've created classes for section headings to manipulate text, and then a class 
+for adding style to "boxes" in each case. Make the ability to manipulate with 
+CSS a lot easier. -->
+      <div class="contentbody">
+        <p>The components of the Internet as to HTML include: the personal computer and the web browser used for navigating the Internet, the Servers that host the HTML files over long periods of time, the Internet itself - which is represented within the Internet Community as a "cloud". These elements: the Servers, the Browser (on the personal computer/device) all interact with one another using HTML as a language, and HTTP as the Protocol. A video explaining this may be found here:</p>
+
+        <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48230539/m-48742046">Video on the World Wide Web</a>
+        <br>
+      </div>
+
+      <div class="content-title">
+              HTML (Hypertext Markup Language)
+      </div>
+      <div class="contentbody">
+        <p>Is made up of: text content, the "markup" or formatting associated with the content, and may include references to other documents such as video, images or links to other pages. 
+        </p>
+      </div>  
+
+      <div class="content-title">
+              HTML - Basic Tags and Elements
+      </div>
+      <div class="contentbody">
+        <p>HTML Tags and Elements enable one to build an HTML page, by inputting these tags elements in to a HTML Editor. The following video contains all the HTML elements taught by Steve Huffman in his Video Lessons on HTML Tags: <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340"></a></p>
+        This includes information on "How To" link to other other web pages and embed videos and links with the HTML.
+        <p></p>
+      </div>
+
+      <div class="content-title">
+              Inline and Block Elements (as to Text)
+      </div>
+      <div class="contentbody">
+        <p>It is important to note the difference between "in-line" and a "block" of text, if one could phrase it that way. Certain HTML Tags and Elements will leave the 'line' of text intact and create a space or break in that line of text.</p><p>
+
+        </p><p>Other tags and elements will create a "block" around the text, and maintain that formatting around the text due to what that element or tag is designed to do. A video link on Inline and Block elements and tags may be found here:</p>
+
+        <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48723438">Video Link.</a>
+      </div>
+
+      <div class="content-title">
+              Computers are Stupid
+      </div>
+      <div class="contentbody">
+        <p>Computers are "stupid" in so much as they interpret commands and instructions in a literal fashion. This means that when one is writing HTML or any other form of Code one should be as accurate as possible, and ensure that the formatting is accurate to enable one to quickly locate errors in the HTML or Code and fix them. 
+        </p>
+      </div>
+    </div>
+  </div>
+    </article>
+    <hr>
+
+    <article>
+    <div class="lesson">
+        <h2>Lesson 2: Creating a Structured Web Document</h2>
+          <div class="content">    
+            <div class="content-title">
+              Introduction: Creating a Structured Web Document
+          </div>
+          <div class="contentbody">
+            <p>Lesson 1A's videos focused on creating a structure within a webpage through HTML. The layering necessary to do this relies on three different levels of encoding: HTML as the basis for CSS (which follows) and finally Javascript. All Web Developers need these three skills in order to be a "Front End Web Developer". Learning to "read" a webpages structure is an integral skill in this course - and it is introduced at this point as an exercise and part of the Quizs in the Module under Stage 1A.</p>
+        </div>
+
+    <div class="content-title">
+              How to Read HTML off the Internet
+      </div>
+        <div class="contentbody">
+          <p>To "read" the Code "behind" a webpage one can use the Developer Tools in Google Chrome. One may click on the Settings button in Chrome, click on "More Tools" and then click on the "Developer Tools" or Ctrl+Shift+I.</p>
+
+          <p>This will give one the bar where one can view the HTML of a webpage, its structure and the given properties for each element on the Webpage. Wikipedia was used as the first example for one to examine, clearly because its structure is very good and kind of easy to see.</p>
+
+          <p>When looking at the Structure of Wikipedia's Page, one should note the following:</p>
+
+        <ul>
+          <li>Not all the elements of the page are visible</li>
+          <li>All elements are in fact rectangles</li>
+          <li>One can read the same text, that is actually on the Webpage itself</li>
+        </ul> 
+      </div>
+
+      <div class="content-title">
+              How to Read HTML off the Internet
+      </div>
+      <div class="contentbody">
+        <p>The structure is like a tree. I moves out from the 'headings' and then breaks down in to other 'branches' where more code is embedded within the different sections. This is referred to as the page structure (HTML classification).</p>
+
+        <p>How does one create structure within a webpage?</p>
+
+        <p>All languages have a syntax that they use to create a structure (HTML, CSS). HTML and CSS use the Document Object Model - that is inherent within the HTML code to create a structured web document that is displayed on the screen for the end-used, CSS then puts a cosmetic front on to the DOM from the HTML to create "styles" in the webpage being displayed.</p>     
+      </div>
+
+      <div class="content-title">
+              "Boxes" and HTML: True Friends
+      </div>
+      <div class="contentbody">
+        <p>It is important to note that in HTML displayed on a webpage, that ALL the elements displayed, are in fact boxes or rectangles. Even a "circle" is in fact encased in a box/rectangle element. This is an important principle in web development: boxes are easy to organise lay out with, easier to fit together. Or put simply, it is easier to arrange a set of boxes and rectangles on a grid (grid being the layout of a webpage), than to work at random (i.e. using pixels).</p>
+
+        <p>In the exercise for this section of work: one had to "deconstruct" a layout, and draw boxes around the different elements of the layout presented. One may draw boxes within boxes - or break the boxes down in to as many boxes as are needed to make work simpler: this is called "boxifying". In the given example I managed to find 14 boxes, albeit there were a possible 8 to 20 boxes in the given layout.</p>
+
+        <span class="bold">Jacque the Web Developer for UDacity:</span>
+
+        <p>Jacque approaches design from the point of view of breaking the webpage down in to three elements when boxifying: the Header, Body and Footer Elements.</p>
+    
+        </div>
+
+      <div class="content-title">
+              Creating Box Elements within a Webpage using HTML
+      </div>
+      <div class="contentbody">
+        <p>One may use the 'Div''/Div' to create boxes to work within. One must note that the 'Div' element may be used within   another 'Div' element to create a "box within a box", this is an important principle one should note.</p>
+
+        <p>One should label the 'div' elements according to their position and possibly as to what they are, for example: "header", "myapp", "screenshot" or "pricetable" - you get the idea. The analogy used in the lesson was one of moving house: one would label where the boxes were going to (i.e. what room they belong in), and even through comments label whether the boxes were "fragile", or had to stay "upright" - essentially building information in to the HTML that would aid further improvement or building of the code.</p>
+
+        <p>Each element can have multiple labels (class names).</p>
+    
+      </div>
+
+      <div class="content-title">
+              Editors Designed for HTML
+      </div>
+      <div class="contentbody">
+        <p>One can use a HTML Editor to make life easier when coding. Using a text editor may be "sufficient", but it can become problematic. Sublime Text is the HTML editor recommended by the UDacity Nano-Degree. There are other HTML editors available too.</p>
+      </div>
+    </div>
+  </div>
+  </article>
+      <hr>
+
+      <article>
+    <div class="lesson">
+        <h2>Lesson 3: CSS and HTML Document Styling, Formatting and Structure</h2>
+    </div>
+          <div class="content">    
+            <div class="content-title">
+               Introduction: CSS and Styling
+          </div>
+              <div class="contentbody">
+                <p>CSS is the "styling" of HTML Elements, via a second layer of language (CSS) and aids in the layout when creating a website or HTML page. CSS stands  for "Cascading Style Sets", and is literally applied in a cascading type of way.</p>
+            
+                <p>One may use the classes that are set by the div element within the HTML
+                  structure to alter the formatting, colours or anything within the box 
+                  created by the "div" element, and this can be done through "inline" text editing, placing CSS in the Style section of the HTML or by a reference in the style element to an external CSS document which is a consolidation of the rules the CSS document will apply to the HTML document.</p>
+
+                <p>One must pay attention to the formatting when working with CSS. The 
+                  indentation of the tags is important, or keeping them in line within 
+                  eachother in a downward way, in order to ensure all relevant tags are 
+                  closed, and the HTML will run as it is supposed to.</p>
+              </div>
+            </div>
+          
+        
+          <div class="content-title">
+              CSS at Work in an HTML Document
+          </div>
+              <div class="contentbody">
+                <p>CSS will alter the inline styling of elements, or when coded in correctly, will alter the entire layout of a HTML page. One needs to have the correct "div" and "span" elements in the document in order for this to occur.<p></p>
+
+                <p>CSS will "inherit" attributes from previous CSS styles (whether inline or external). One may use inline CSS to alter individual elements of HTML style, and keep the rest of the formatting across the HTML document. According to the <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">Wikipedia entry on CSS and cascading style elements</a>, descendent elements will inherit "ancestor" CSS values while enclosing it.</p>
+
+                <p>In general text descendant elements will be inherited, but box related properties will not be. What follows is a list of properties that can be inherited:</p>
+
+                <ul>
+                  <li>colour</li>
+                  <li>font</li>
+                  <li>letter spacing</li>
+                  <li>list style</li>
+                  <li>text alignment</li>
+                  <li>line height</li>
+                  <li>visibility</li>
+                  <li>white space</li>
+                  <li>word spacing</li>
+                </ul>
+
+                <p>Properties that will not be inherited include:</p>
+
+                <ul>
+                  <li>background</li>
+                  <li>border and display</li>
+                  <li>float and clear elements</li>
+                  <li>margin</li>
+                  <li>minimum and maximum height</li>
+                  <li>width</li>
+                  <li>outline</li>
+                  <li>overflow elements</li>
+                </ul>
+
+              </div>
+
+                <div class="content-title">
+                  CSS Selectors in HTML Documents
+                </div>
+                  <div class="contentbody">
+                    <p>CSS Selectors are created within the HTML document, and then using an external CSS Styling Sheet, with references to that "class" by label, one may alter the formatting of those sections as defined by the selector (the selector will apply to all CSS tags using the HTML labels). There are two ways to select elements using CSS:</p>
+
+                    <ul>
+                      <li>Selection of elements by Class</li>
+                      <li>Selection of elements by Tags</li>
+                    </ul>
+                  </div>
+
+                    <div class="content-title">
+                      How does CSS Control HTML Values?
+                    </div>
+                      <div class="contentbody">
+                      <p>CSS uses an externalised set of values, defined within an external CSS file, with pre-defined selectors to "control" the attributes within a give selector class within the HTML document itself.</p>
+
+                      <p>There may be multiple CSS Style Sheets defining different aspects of an indivdual webpage, or to different sections of webpages within an overall document. This enables one to easily modify entire sections of HTML without having to alter individual values in the HTML document itself through the use of inline styling.</p><p> 
+
+                      </p><p>One may define selector class values, or other HTML Elements such as Headings, text-formatting and so on in the CSS File.</p>
+                  </div>
+        
+              <div class="content-title">
+                  How to include CSS Styling in a Webpage
+                </div>
+                  <div class="contentbody">
+                    <p>Method 1: Write the CSS in an external document and make a link within the Head section of the HTML document. Inside the Head section, on creates a Style tag, and then defines all the CSS within the Style section, this will then apply to all defined elements within the webpage.</p>
+
+                    <p>Method 2: Link the HTML to an External CSS File. This is better for larger projects, as one can keep the styling and structure of the HTML and CSS more organised. This is done by adding a defining line of code in the Head of the HTML document that refers to the external CSS File by name. This method has been mentioned numerous times in this section, and by far and away seems to be the most prominent way to define and use CSS in HTML.</p>
+
+                    <p>Method 3: Inline coding of CSS Elements. This method is not as good as the aformentioned methods - as it leads to repeated code (not good coding practice), however it may be used to style individual (standalone) elements that one may not want to "universally" style.</p>
+                </div>
+
+                <div class="content-title">
+                  Using the right Elements for Styling
+                </div>
+                  <div class="contentbody">
+                    <p>One needs to examine what the best elements are for formatting a HTML document: for instance using a Heading Element, and styling that as oppose to manipulating the text using CSS. The reason for this is simple, HTML readers and browsers "create document structures" based on the layout and heading within a HTML document, and hence with good structure the webpage will be easily located in a web search based on the headings and content, if the page is welll structured.</p>
+
+                    <p>The Developer Tools (in Chrome) enable one to examine any website and its structure to see how other developers achieve this. One must try and think of styling in terms of the "boxes" and "boxifying" from the previous lesson.</p>
+                  </div>
+
+                <div class="content-title">
+                  Boxes in HTML and CSS
+                </div>
+                  <div class="contentbody">
+                    <p>An <a href="https://www.addedbytes.com/articles/for-beginners/the-box-model-for-beginners/">example of the box model</a> may be found here, and this is vital for understanding the structure of an HTML documents, and then the CSS formatting of aforementioned boxes.</p>
+
+                    <p>The Box Model has four layers (each working out from the innermost layer):</p>
+
+                    <ol>
+                      <li><b>Content</b>: the text nucleus, items are essentially "wrapped" and protected in this layer.</li>
+                      <li><b>Padding</b>: Padding, which clears the area "around" the content.</li>
+                      <li><b>Border</b>: around the padding.</li>
+                      <li><b>Margin</b>: transparent, and clears the area around the border.</li>
+                    </ol>
+
+                    <p>Each layer "protects data", and can be manipulated individually. This is why formatting can be so difficult as one is trying to balance all of these four elements of boxes to create a layout that satisfies a client. One should note that all calculations of the total width of all the boxes, is the sum of both the sides of the boxes, going left to right across a page.</p>
+
+                    <p>CSS Box Size:</p><br>
+                    <p>CSS Box Size includes the Padding and Margin of the box settings in the HTML and CSS styling. One should note that older browsers may struggle with these settings, and if this is the case one should use the code found with the documentation for the older browsers in order to make it work in the older browsers. These are called "browser prefix codes".</p>
+
+                    <p>As setting the four elements of box size can be tricky, one should use one of the following two techniques: (1) set the box size in percentages (%), or (2) set the "Box-sizing" attribute to "border-box", for each element.</p>
+
+                    <p>Box Positioning:</p><br>
+                    <p>Div elements are Block elements, not inline elements, therefore by default they take up the entire width of the webpage (as available). If one wants to make the Div elements "sit next to eachother", one should use the "display: flex" in the relevant CSS Style Code in the CSS file referenced in the HTML file. This will moves the "images" or "boxes" in to alignment, BUT one must ensure the values set for the width of the elements are LESS THAN 100% of the total width of the page (as mentioned above).</p>
+                  </div>
+
+                <div class="content-title">
+                  Good Coding Practice: Do not repeat Code!
+                </div>
+                      <div class="contentbody">
+                        <p>It is good coding practice (in HTML and in general programming) to try and streamline the code. This means one should 
+                        strive to ensure that code is repeated as little as possible.</p>
+
+                        <p>In essence this is one of the reasons one uses CSS in relation to HTML, it enables one to set the style of an entire
+                        webpage, or sections of it through the use of CSS, which then enables one to alter the style to a client's needs, without
+                        affecting the data on the page, and with minimal effort.</p>
+
+                        <p>This process also makes it easier for other people to read the HTML or Code, without having to read through masses of repeated
+                        code which would be an annoying and time consuming process. Breaking a webpage in to sections, with relative CSS styles therefore 
+                        is very important to this process,</p>
+
+                        <p>Less repetition of code is more efficient, and by extension makes for programming with less errors.</p>
+                      </div>
+                  
+
+                <div class="content-title">
+                  Code, Test, Refine
+                </div>
+                      <div class="contentbody">
+                        <p>In general terms the following process applies to turning a graphic design proposal in to a website:</p>
+
+                        <ol>
+                          <li>Boxify the elements on the proposed draft</li>
+                          <li>Examine the Tags, and look for repeated elements or styles which can be used to formulate a potential layout (i.e. repeated styles and semantic elements.</li>
+                          <li>Check the size of the boxes, and create smaller boxes if necessary.</li>
+                          <li>Examine the layout of the HTML/CSS by running it in a Browser, and then refining the elements until one is closer to the desired design.</li>
+                          <li>The Small Details: keep refining and adjusting until the HTML/CSS and page itself have the desired look or design as to the briefing.</li>
+                        </ol>
+
+                      <p>One should use the Developer Tools to not only deconstruct the HTML code on a page. but also to "experiment" with altering of values to see what they will look like: this means one may avoid altering the actual HTML/CSS values - and if you make a mistake, you can merely hit Refresh in the browser to reset the values and start again, or if something works - one can copy it over to the HTML/CSS file and save it (one can use the 'Sources' tab in the developer tools section to do this). Compare your design to the proposal, and use Developer as previosuly mentioned to keep refining until you are happy with the look and style of the webpage.</p>
+
+                      <p>Verifying the HTML, CSS as to Industry Standards:</p>
+                    
+                      <p>When you have completed the coding stage, one needs to ensure that the code will run correctly when it is run in a browser on the Internet. This is done by using the W3C Markup Validation Site <a href="http://validator.w3.org=">(linked here)</a>.</p>
+
+                      <p>The Validator will not only verify the HTML and CSS - but will actually tell you what line the error(s) are on and what the errors pertain to as to the code.</p>
+                    </div>
+              </article>
+
+</body>
+
+    </html>
